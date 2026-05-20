@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Raleway", "Inter", sans-serif;
+  --font-sans: "Raleway", "Inter", sans-serif;
+  --font-mono: "Raleway", "Inter", sans-serif;
+  
+  --font-weight-light: 600;
+  --font-weight-normal: 600;
+  --font-weight-medium: 600;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 600;
+  --font-weight-black: 600;
+  
+  --color-cream: #FCFBF7;
+  --color-charcoal: #111111;
+  --color-accent-gold: #AF9662;
+}
+
+body {
+  background-color: #FCFBF7;
+  color: #111111;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  overscroll-behavior-y: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar for high-luxury websites */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FCFBF7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111111;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #AF9662;
+}
+
+/* Elegant design utilities */
+.editorial-line {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.editorial-line-dark {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.text-stroke-gold {
+  -webkit-text-stroke: 1px #AF9662;
+}
